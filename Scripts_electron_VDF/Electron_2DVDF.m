@@ -255,6 +255,7 @@ load('2DVDF_16296_nostrahl_25000')
     colors_p1 = [linspace(white(1),red(1),length)', linspace(white(2),red(2),length)', linspace(white(3),red(3),length)'];
     colors_p2 = [linspace(white(1),blue(1),length)', linspace(white(2),blue(2),length)', linspace(white(3),blue(3),length)'];
     
+    
     %{
     f6=figure(6);
     h(1)=pcolor(Xedges3e,Redges3e, (Nenan1 - Nenan00)./Nenan00);
